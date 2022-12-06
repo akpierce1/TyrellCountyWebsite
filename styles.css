@@ -1,0 +1,427 @@
+/* header */
+.title1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #3071a5;
+    text-shadow: -.75px .75px 0 #fff, .75px -.75px 0 #fff, -.75px .75px 0 #fff, .75px .75px 0 #fff;
+}
+
+.title1:hover {
+    color: #3071a5;
+}
+
+.title2 {
+    font-family: cursive;
+    color: rgb(218, 218, 218);
+    font-size: 2em;
+}
+
+.title2:hover {
+    color: rgb(218, 218, 218);
+}
+
+/* navigation */
+nav {
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-nav a {
+    color: rgb(218, 218, 218);
+}
+
+.navbar-nav a:hover {
+    color: rgb(218, 218, 218);
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding: 10%;
+  }
+
+  .dropdown-content a:hover {
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* main section */
+.main-section {
+    padding: 0 12%;
+}
+
+/* welcome section */
+.welcome-heading {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: #3071a5;
+}
+
+.home-btn {
+    background-color: #3071a5;
+    color: white;
+    padding: 18px 2%;
+    border-radius: 15px;
+}
+
+.home-btn:hover {
+    background-color: #1a5483;
+    color: white;
+}
+
+.pay-button {
+    background-color: rgb(241, 241, 241);
+    color: #1a5483;
+    padding: 20px 5%;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.pay-button:hover {
+    background-color: rgb(217, 217, 217);
+}
+
+.center-button {
+    text-align: center;
+    padding: 2%;
+}
+
+/* event section */
+.events {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.events-heading {
+    text-align: center;
+    color: #3071a5;
+    padding-bottom: 2%;
+}
+
+.event-time {
+    color: #5A5A5A;
+}
+
+.event-notice {
+    font-size: 1.2em;
+}
+
+/* About section */
+.about-heading {
+    padding-bottom: 3%;
+    text-align: center;
+    color: #3071a5;
+}
+
+.coantainer img {
+    width: 20px;
+}
+
+.about-row, .pay-row {
+    padding-bottom: 5%;
+}
+
+.about-image-section {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.about-image {
+    border-radius: 5px;
+}
+
+h1, h2, h3, .payment-address {
+    color: #3071a5;
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pay-main-section {
+    padding: 5%;
+}
+
+.bill-heading {
+    text-align: center;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.choose-method {
+    padding: 5% 10%;
+    padding-bottom: 10%;
+}
+
+.view-rates {
+    padding-bottom: 3%;
+    color: #3071a5;
+}
+
+.view-rates-link {
+    background-color: #3071a5;
+    color: white;
+    padding: 3.5%;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.view-rates-link:hover {
+    background-color: #1a5483;
+    color: white;
+}
+
+.pay-row {
+    padding: 4%;
+    background-color: rgb(239, 239, 239);
+    border-radius: 20px;
+}
+
+/* boards and committees section */
+.commission-heading {
+    font-size: 2em;
+    text-align: center;
+    padding: 3%;
+}
+
+.heading2 {
+    font-size: 1.2em;
+    padding: 2% 0;
+    color: #3071a5;
+}
+
+.commission-link {
+    color: #1a5483;
+    text-decoration: none;
+}
+
+.commission-link:hover {
+    text-decoration: underline;
+}
+
+.commission-section {
+    text-align: center;
+}
+
+.board-1, .board-2, .board-3, .board-4, .board-5, .board-6, .board-7 {
+    padding-bottom: 8%;
+}
+
+/* solid waste management section */
+.waste-heading {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.waste-heading2 {
+    font-size: 1.5em;
+    padding-bottom: 3%;
+}
+
+.recycle-button {
+    padding: 4%;
+    background-color: #3071a5;
+    color: white;
+}
+
+.recycle-button:hover {
+    background-color: #1a5483;
+    color: white;
+}
+
+/* contact */
+.main-section {
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    align-items: center;
+}
+
+.contact-form {
+    padding: 2% 20%;
+}
+
+label {
+    padding-top: 5%;
+}
+
+.form-button {
+    padding-top: 5%;
+}
+
+.submit-button {
+    padding: 3% 4%;
+    background-color: #3071a5;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #1a5483;
+    color: white;
+}
+
+/* footer section */
+footer {
+    padding: 6% 12% 3% 8%;
+    background-color: #212529;
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: rgb(224, 224, 224);
+    display: block;
+    line-height: 2em;
+    font-size: .85em;
+}
+
+footer a:hover {
+    color: #1a5483;
+}
+
+footer p {
+    font-size: .85em;
+}
+
+footer .quick-links {
+    padding-bottom: 6%;
+}
+
+.social-icon {
+    width: 3em;
+    padding: 3%;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1200px) {
+   .pay-main-section {
+    top: 45%;
+   }
+   .bill-heading {
+    font-size: 2.2em;
+   }
+}
+ @media only screen and (max-width: 975px) {
+    .pay-main-section {
+        top: 40%;
+       }
+       .bill-heading {
+        font-size: 1.5em;
+       }
+       .pay-button {
+        padding: 15px 5%;
+        border-radius: 24px;
+        font-size: 1em;
+    }
+ }
+
+ @media only screen and (max-width: 975px) {
+    .pay-main-section {
+        top: 45%;
+       }
+       .contact-form {
+        padding: 3%;
+    }
+    }
+ @media only screen and (max-width: 680px) {
+    .pay-main-section {
+        top: 40%;
+       }
+       .bill-heading {
+        font-size: 1.2em;
+       }
+       .pay-button {
+        padding: 15px 5%;
+        border-radius: 24px;
+        font-size: .85em;
+    }
+ }
+ @media only screen and (max-width: 560px) {
+    .pay-main-section {
+        top: 40%;
+ }
+}
+@media only screen and (max-width: 555px) {
+    .bill-heading {
+        display: none;
+    }
+    .pay-main-section {
+        top: 32%;
+    }
+    .bill-heading {
+        font-size: 1em;
+    }
+    .pay-button {
+        padding: 15px 7%;
+        font-size: .75em;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .pay-main-section {
+        top: 38%;
+    }
+    .pay-button {
+        padding: 12px 20px;
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .pay-main-section {
+        top: 35%;
+    }
+    .pay-button {
+        padding: 12px 20px;
+        font-size: .75em;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .logo {
+        font-size: .75em;
+        padding-bottom: 5%;
+    }
+    .pay-main-section {
+        top: 38%;
+    }
+    .pay-button {
+        padding: 10px 18px;
+        font-size: .75em;
+    }
+    .contact-form {
+        padding: 2%;
+    }
+}
